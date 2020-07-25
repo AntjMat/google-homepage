@@ -1,0 +1,161 @@
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+header {
+    height: 30px;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    float: none;
+    position:relative;
+    top: auto;
+    right:auto;
+    width: 100%;
+    margin: 20px 0 0;
+    height: 50px;
+    line-height: auto;
+    background-color: rgb(240, 240, 240);
+}
+
+main {
+    flex: 1;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+  }
+
+  div {
+      display: block;
+  }
+
+#linktopleft {
+    float: left;
+    margin: 10px;
+}
+
+#linktopright {
+    float: right;
+    margin: 10px;
+}
+
+#linkbottomleft {
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#linkbottomright {
+    float: right;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+a {
+    color: rgba(66, 66, 66, 0.87);
+    text-decoration: none;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
+
+.menu {
+    max-width:20px;
+    max-height:75px;
+    width: auto;
+    height: auto;
+    opacity: 50%;
+}
+
+.userlogo {
+    width: auto;
+    height: auto;
+    padding-bottom: 10%;
+    max-width:20px;
+    max-height:90px;
+    border-radius: 50%;
+}
+
+.menu:hover {
+    opacity: 100%;
+}
+
+.middle {
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-bottom: 15px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.searchbox {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+
+#searchtext {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    width: 420px;
+    height: 25px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+#searchtext:focus {
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    height: 36px;
+    min-width: 5px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border-radius: 4px;
+    border: 1px solid #f2f2f2;
+    margin: 15px 4px;
+    padding: 0 16px;
+    outline: none;
+    cursor: pointer;
+}
